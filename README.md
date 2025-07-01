@@ -1,1 +1,1 @@
-# qa_guru_python_8_hw
+ДЗ по курсу обучения на Python QA_GURU
