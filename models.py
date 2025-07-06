@@ -76,9 +76,6 @@ class Cart:
         Учтите, что товаров может не хватать на складе.
         В этом случае нужно выбросить исключение ValueError"""
         for product, quantity in self.products.items():
-            if not product.check_quantity(quantity):
-                raise ValueError
-        for product, quantity in self.products.items():
             product.buy(quantity)
         self.clear()
 
